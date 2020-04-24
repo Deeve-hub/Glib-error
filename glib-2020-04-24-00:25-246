@@ -1,0 +1,1138 @@
+The Meson build system
+Version: 0.54.0
+Source dir: /home/david/.cache/kiss/build-246/glib
+Build dir: /home/david/.cache/kiss/build-246/glib/build
+Build type: native build
+Project name: glib
+Project version: 2.64.2
+C compiler for the host machine: cc (gcc 9.3.0 "cc (GCC) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+C++ compiler for the host machine: c++ (gcc 9.3.0 "c++ (GCC) 9.3.0")
+C++ linker for the host machine: c++ ld.bfd 2.34
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Checking if "GNU C visibility attributes test" compiles: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Has header "alloca.h" : YES 
+Has header "crt_externs.h" : NO 
+Has header "dirent.h" : YES 
+Has header "float.h" : YES 
+Has header "fstab.h" : NO 
+Has header "grp.h" : YES 
+Has header "inttypes.h" : YES 
+Has header "limits.h" : YES 
+Has header "linux/magic.h" : YES 
+Has header "locale.h" : YES 
+Has header "mach/mach_time.h" : NO 
+Has header "memory.h" : YES 
+Has header "mntent.h" : YES 
+Has header "poll.h" : YES 
+Has header "pwd.h" : YES 
+Has header "sched.h" : YES 
+Has header "spawn.h" : YES 
+Has header "stdint.h" : YES 
+Has header "stdlib.h" : YES 
+Has header "string.h" : YES 
+Has header "strings.h" : YES 
+Has header "sys/auxv.h" : YES 
+Has header "sys/event.h" : NO 
+Has header "sys/filio.h" : NO 
+Has header "sys/inotify.h" : YES 
+Has header "sys/mkdev.h" : NO 
+Has header "sys/mntctl.h" : NO 
+Has header "sys/mnttab.h" : NO 
+Has header "sys/mount.h" : YES 
+Has header "sys/param.h" : YES 
+Has header "sys/resource.h" : YES 
+Has header "sys/select.h" : YES 
+Has header "sys/statfs.h" : YES 
+Has header "sys/stat.h" : YES 
+Has header "sys/statvfs.h" : YES 
+Has header "sys/sysctl.h" : NO 
+Has header "sys/time.h" : YES 
+Has header "sys/times.h" : YES 
+Has header "sys/types.h" : YES 
+Has header "sys/uio.h" : YES 
+Has header "sys/vfs.h" : YES 
+Has header "sys/vfstab.h" : NO 
+Has header "sys/vmount.h" : NO 
+Has header "sys/wait.h" : YES 
+Has header "termios.h" : YES 
+Has header "unistd.h" : YES 
+Has header "values.h" : YES 
+Has header "wchar.h" : YES 
+Has header "xlocale.h" : NO 
+Checking if "malloc.h" compiles: YES 
+Has header "linux/netlink.h" : YES 
+Header <locale.h> has symbol "LC_MESSAGES" : YES 
+Checking whether type "struct stat" has member "st_mtimensec" : NO 
+Checking whether type "struct stat" has member "st_mtim.tv_nsec" : YES 
+Checking whether type "struct stat" has member "st_atimensec" : NO 
+Checking whether type "struct stat" has member "st_atim.tv_nsec" : YES 
+Checking whether type "struct stat" has member "st_ctimensec" : NO 
+Checking whether type "struct stat" has member "st_ctim.tv_nsec" : YES 
+Checking whether type "struct stat" has member "st_birthtime" : NO 
+Checking whether type "struct stat" has member "st_birthtimensec" : NO 
+Checking whether type "struct stat" has member "st_birthtim" : NO 
+Checking whether type "struct stat" has member "st_birthtim.tv_nsec" : NO 
+Checking whether type "struct stat" has member "st_blksize" : YES 
+Checking whether type "struct stat" has member "st_blocks" : YES 
+Checking whether type "struct statfs" has member "f_fstypename" : NO 
+Checking whether type "struct statfs" has member "f_bavail" : YES 
+Checking whether type "struct dirent" has member "d_type" : YES 
+Checking whether type "struct statvfs" has member "f_basetype" : NO 
+Checking whether type "struct statvfs" has member "f_fstypename" : NO 
+Checking whether type "struct tm" has member "tm_gmtoff" : YES 
+Checking whether type "struct tm" has member "__tm_gmtoff" : YES 
+Compiler for C supports arguments -Wduplicated-branches: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Compiler for C supports arguments -Wmisleading-indentation: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Compiler for C supports arguments -Wno-bad-function-cast -Wbad-function-cast: YES 
+Compiler for C supports arguments -Wno-cast-function-type -Wcast-function-type: YES 
+Compiler for C supports arguments -Wno-pedantic -Wpedantic: YES 
+Compiler for C supports arguments -Werror=declaration-after-statement: YES 
+Compiler for C supports arguments -Werror=format=2: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports link arguments -Wl,-z,nodelete: YES 
+Compiler for C supports link arguments -Wl,-Bsymbolic-functions: YES 
+Checking for function "endmntent" : YES 
+Checking for function "endservent" : YES 
+Checking for function "fallocate" : YES 
+Checking for function "fchmod" : YES 
+Checking for function "fchown" : YES 
+Checking for function "fdwalk" : NO 
+Checking for function "fsync" : YES 
+Checking for function "getauxval" : YES 
+Checking for function "getc_unlocked" : YES 
+Checking for function "getfsstat" : NO 
+Checking for function "getgrgid_r" : YES 
+Checking for function "getmntent_r" : YES 
+Checking for function "getpwuid_r" : YES 
+Checking for function "getresuid" : YES 
+Checking for function "getvfsstat" : NO 
+Checking for function "gmtime_r" : YES 
+Checking for function "hasmntopt" : YES 
+Checking for function "inotify_init1" : YES 
+Checking for function "issetugid" : YES 
+Checking for function "kevent" : NO 
+Checking for function "kqueue" : NO 
+Checking for function "lchmod" : YES 
+Checking for function "lchown" : YES 
+Checking for function "link" : YES 
+Checking for function "localtime_r" : YES 
+Checking for function "lstat" : YES 
+Checking for function "mbrtowc" : YES 
+Checking for function "memalign" : YES 
+Checking for function "mmap" : YES 
+Checking for function "newlocale" : YES 
+Checking for function "pipe2" : YES 
+Checking for function "poll" : YES 
+Checking for function "prlimit" : YES 
+Checking for function "readlink" : YES 
+Checking for function "recvmmsg" : YES 
+Checking for function "sendmmsg" : YES 
+Checking for function "setenv" : YES 
+Checking for function "setmntent" : YES 
+Checking for function "strerror_r" : YES 
+Checking for function "strnlen" : YES 
+Checking for function "strsignal" : YES 
+Checking for function "strtod_l" : YES 
+Checking for function "strtoll_l" : NO 
+Checking for function "strtoull_l" : NO 
+Checking for function "symlink" : YES 
+Checking for function "timegm" : YES 
+Checking for function "unsetenv" : YES 
+Checking for function "uselocale" : YES 
+Checking for function "utimes" : YES 
+Checking for function "valloc" : YES 
+Checking for function "vasprintf" : YES 
+Checking for function "vsnprintf" : YES 
+Checking for function "wcrtomb" : YES 
+Checking for function "wcslen" : YES 
+Checking for function "wcsnlen" : YES 
+Checking for function "sysctlbyname" : NO 
+Checking for function "_NSGetEnviron" : NO 
+Checking for function "statvfs" : YES 
+Checking for function "statfs" : YES 
+Checking for function "if_indextoname" : YES 
+Checking for function "if_nametoindex" : YES 
+Checking for function "splice" : YES 
+Checking for function "stpcpy" : YES 
+Checking for function "posix_memalign" : YES 
+Checking for function "posix_spawn" : YES 
+Checking if "strerror_r() returns char *" compiles: NO 
+Checking for function "snprintf" : YES 
+Checking for function "strcasecmp" : YES 
+Checking for function "strncasecmp" : YES 
+Header <sys/sysmacros.h> has symbol "major" : YES 
+Header <dlfcn.h> has symbol "RTLD_LAZY" : YES 
+Header <dlfcn.h> has symbol "RTLD_NOW" : YES 
+Header <dlfcn.h> has symbol "RTLD_GLOBAL" : YES 
+Header <dlfcn.h> has symbol "RTLD_NEXT" : YES 
+Message: Checking whether to use statfs or statvfs .. statfs
+Checking for function "mkostemp" : YES 
+Checking if "futex(2) system call" links: YES 
+Checking if "eventfd(2) system call" links: YES 
+Checking if "clock_gettime" links: YES 
+Checking if "dlopen() and dlsym() in system libraries" links: YES 
+Checking if "number of arguments to statfs() (n=2)" compiles: YES 
+Checking if "open() option O_DIRECTORY" compiles: YES 
+Checking if "C99 vsnprintf" runs: YES
+Checking if "C99 snprintf" runs: YES
+Checking if "Unix98 printf positional parameters" runs: YES
+Checking if "nl_langinfo and CODESET" links: YES 
+Checking if "nl_langinfo (PM_STR)" links: YES 
+Checking if "nl_langinfo (_NL_CTYPE_OUTDIGITn_MB)" links: NO 
+Checking if "nl_langinfo (ALTMON_n)" links: NO 
+Checking if "nl_langinfo (_NL_ABALTMON_n)" links: NO 
+Checking if "signed" compiles: YES 
+Header <stddef.h> has symbol "ptrdiff_t" : YES 
+Checking if "sig_atomic_t" links: YES 
+Checking if "long long" compiles: YES 
+Checking if "long double" compiles: YES 
+Header <stddef.h> has symbol "wchar_t" : YES 
+Header <wchar.h> has symbol "wint_t" : YES 
+Checking if "uintmax_t in inttypes.h" compiles: YES 
+Checking if "uintmax_t in stdint.h" compiles: YES 
+Checking for size of "char" : 1
+Checking for size of "short" : 2
+Checking for size of "int" : 4
+Checking for size of "void*" : 8
+Checking for size of "long" : 8
+Checking for size of "long long" : 8
+Checking for size of "size_t" : 8
+Checking for size of "ssize_t" : 8
+Checking if "int64_t is long" compiles: YES 
+Checking for alignment of "char" : 1
+Checking for alignment of "short" : 2
+Checking for alignment of "int" : 4
+Checking for alignment of "void*" : 8
+Checking for alignment of "long" : 8
+Checking for alignment of "long long" : 8
+Checking for alignment of "size_t" : 8
+Checking for size of "wchar_t" : 4
+Checking if "GCC size_t typedef is long" compiles: YES 
+Checking if "GCC size_t typedef is long long" compiles: NO 
+Checking if "__va_copy check" compiles: YES 
+Checking if "va_copy check" compiles: YES 
+Checking if "va_lists can be copied as values" runs: DID NOT COMPILE
+Checking if "ISO C99 varargs macros in C" compiles: YES 
+Checking if "ISO C99 varargs macros in C++" compiles: YES 
+Checking if "GNUC varargs macros" compiles: YES 
+Has header "alloca.h" : YES (cached)
+Has header "sys/poll.h" : YES 
+Has header "sys/types.h" : YES (cached)
+Has header "winsock2.h" : NO 
+Computing int of "POLLIN" : 1
+Computing int of "POLLOUT" : 4
+Computing int of "POLLPRI" : 2
+Computing int of "POLLERR" : 8
+Computing int of "POLLHUP" : 16
+Computing int of "POLLNVAL" : 32
+Computing int of "AF_UNIX" : 1
+Computing int of "AF_INET" : 2
+Computing int of "AF_INET6" : 10
+Computing int of "MSG_OOB" : 1
+Computing int of "MSG_PEEK" : 2
+Computing int of "MSG_DONTROUTE" : 4
+Checking if "atomic ops" links: YES 
+Checking if "atomic ops define" compiles: YES 
+Run-time dependency threads found: YES
+Header <pthread.h> has symbol "pthread_attr_setstacksize" : YES 
+Header <pthread.h> has symbol "pthread_attr_setinheritsched" : YES 
+Header <pthread.h> has symbol "pthread_condattr_setclock" : YES 
+Header <pthread.h> has symbol "pthread_cond_timedwait_relative_np" : NO 
+Header <pthread.h> has symbol "pthread_getname_np" : NO 
+Header <sys/syscall.h> has symbol "SYS_sched_getattr" : YES 
+Checking if "pthread_setname_np(const char*)" with dependency threads links: NO 
+Checking if "pthread_setname_np(pthread_t, const char*)" with dependency threads links: YES 
+Checking if "stack grows check" runs: NO (1)
+Checking for function "iconv_open" : YES 
+Library m found: YES
+Found pkg-config: /usr/bin/pkg-config (1.6.3)
+Run-time dependency libffi found: YES 3.3
+Run-time dependency zlib found: YES 1.2.11
+Checking for function "ngettext" : YES 
+Checking for function "bind_textdomain_codeset" : YES 
+Dependency mount skipped: feature libmount disabled
+Found CMake: /usr/bin/cmake (3.17.1)
+Run-time dependency libselinux found: NO (tried pkgconfig and cmake)
+Checking for function "getxattr" : YES 
+Has header "sys/xattr.h" : YES 
+Checking if "XATTR_NOFOLLOW" compiles: NO 
+Checking for function "strlcpy" : YES 
+Checking if "OpenBSD strlcpy/strlcat" runs: YES
+Checking if "/proc/self/cmdline" runs: YES
+Program python3 found: YES (/usr/bin/python3)
+Program bash found: YES (/usr/bin/bash)
+Program sh found: YES (/usr/bin/sh)
+Program env found: YES (/usr/bin/env)
+Configuring glibconfig.h using configuration
+Configuring gtester-report using configuration
+Configuring libglib-2.0.so.0.6400.2-gdb.py using configuration
+Configuring glib-genmarshal using configuration
+Program /home/david/.cache/kiss/build-246/glib/build/gobject/glib-genmarshal found: YES (/home/david/.cache/kiss/build-246/glib/build/gobject/glib-genmarshal)
+Configuring glib-mkenums using configuration
+Program /home/david/.cache/kiss/build-246/glib/build/gobject/glib-mkenums found: YES (/home/david/.cache/kiss/build-246/glib/build/gobject/glib-mkenums)
+Configuring libgobject-2.0.so.0.6400.2-gdb.py using configuration
+Checking if "dlsym() preceding underscores" runs: NO (1)
+Checking for function "dlerror" : YES 
+Configuring gmoduleconf.h using configuration
+Checking if "C_IN in public headers (no arpa/nameser_compat.h needed)" compiles: YES 
+Checking if "res_query()" links: YES 
+Checking if "socket()" links: YES 
+Checking if "res_init()" links: YES 
+Checking if "res_nclose()" links: NO 
+Checking if "res_ndestroy()" links: NO 
+Checking if "res_ninit()" links: NO 
+Checking if "res_nquery()" links: NO 
+Checking for type "struct ip_mreqn" : YES 
+Checking if "ioctl with request SIOCGIFADDR" compiles: YES 
+Configuring gnetworking.h using configuration
+Configuring gdbus-codegen using configuration
+Program /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/gdbus-codegen found: YES (/home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/gdbus-codegen)
+Configuring config.py using configuration
+Run-time dependency libelf found: YES 0.8.13
+Program xgettext found: NO
+Configuring glib-gettextize using configuration
+Configuring config.h using configuration
+Build targets in project: 26
+
+Found ninja-1.9.0 at /usr/bin/ninja
+[1/419] Generating gconstructor_as_data.h with a custom command
+[2/419] Generating xdp-dbus with a custom command
+[3/419] Generating gdbus-daemon-generated with a custom command
+[4/419] Generating gioenumtypes_h with a meson_exe.py custom command
+[5/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmimeparent.c.o'
+[6/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmimemagic.c.o'
+[7/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmimeint.c.o'
+[8/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmimeicon.c.o'
+[9/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmimeglob.c.o'
+[10/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmimecache.c.o'
+[11/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmimealias.c.o'
+[12/419] Compiling C object 'gio/xdgmime/b8a2f8e@@xdgmime@sta/xdgmime.c.o'
+[13/419] Compiling C object 'gmodule/75acf41@@gmodule-2.0@sha/gmodule.c.o'
+[14/419] Compiling C object 'gthread/7fc3d67@@gthread-2.0@sha/gthread-impl.c.o'
+[15/419] Generating glib_enumtypes_h with a meson_exe.py custom command
+[16/419] Compiling C object 'glib/4430778@@gtester@exe/gtester.c.o'
+[17/419] Linking static target gio/xdgmime/libxdgmime.a
+[18/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gthread-posix.c.o'
+[19/419] Compiling C object 'glib/4430778@@glib-2.0@sha/giounix.c.o'
+[20/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gspawn.c.o'
+[21/419] Compiling C object 'glib/4430778@@glib-2.0@sha/glib-unix.c.o'
+[22/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gprintf.c.o'
+[23/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gwakeup.c.o'
+[24/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gversion.c.o'
+[25/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gvarianttype.c.o'
+[26/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gvarianttypeinfo.c.o'
+[27/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gvariant-serialiser.c.o'
+[28/419] Compiling C object 'gobject/6270cfe@@gobject-query@exe/gobject-query.c.o'
+[29/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gvaluetypes.c.o'
+[30/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gvaluetransform.c.o'
+[31/419] Compiling C object 'gio/6ae6c9e@@gapplication@exe/gapplication-tool.c.o'
+[32/419] Compiling C object 'gio/6ae6c9e@@gdbus@exe/gdbus-tool.c.o'
+[33/419] Compiling C object 'gio/6ae6c9e@@gsettings@exe/gsettings-tool.c.o'
+[34/419] Compiling C object 'gio/6ae6c9e@@glib-compile-resources@exe/glib-compile-resources.c.o'
+[35/419] Compiling C object 'gio/6ae6c9e@@glib-compile-resources@exe/gvdb_gvdb-builder.c.o'
+[36/419] Compiling C object 'gio/6ae6c9e@@glib-compile-schemas@exe/glib-compile-schemas.c.o'
+[37/419] Compiling C object 'gio/6ae6c9e@@glib-compile-schemas@exe/gvdb_gvdb-builder.c.o'
+[38/419] Compiling C object 'gio/6ae6c9e@@gio-querymodules@exe/giomodule-priv.c.o'
+[39/419] Compiling C object 'gio/6ae6c9e@@gio-querymodules@exe/gio-querymodules.c.o'
+[40/419] Compiling C object 'gio/6ae6c9e@@gresource@exe/gresource-tool.c.o'
+[41/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-tree.c.o'
+[42/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-trash.c.o'
+[43/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-set.c.o'
+[44/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-save.c.o'
+[45/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-remove.c.o'
+[46/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-rename.c.o'
+[47/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-open.c.o'
+[48/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-move.c.o'
+[49/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-mount.c.o'
+[50/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-monitor.c.o'
+[51/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-mkdir.c.o'
+[52/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-mime.c.o'
+[53/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-list.c.o'
+[54/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-info.c.o'
+[55/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-copy.c.o'
+[56/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool-cat.c.o'
+[57/419] Compiling C object 'gio/6ae6c9e@@gio@exe/gio-tool.c.o'
+[58/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/thumbnail-verify.c.o'
+[59/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocks5proxy.c.o'
+[60/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocks4aproxy.c.o'
+[61/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocks4proxy.c.o'
+[62/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalvfs.c.o'
+[63/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalfileiostream.c.o'
+[64/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalfileoutputstream.c.o'
+[65/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalfilemonitor.c.o'
+[66/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalfileinputstream.c.o'
+[67/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalfileinfo.c.o'
+[68/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalfileenumerator.c.o'
+[69/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glocalfile.c.o'
+[70/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/ghttpproxy.c.o'
+[71/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gportalnotificationbackend.c.o'
+[72/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gportalsupport.c.o'
+[73/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtrashportal.c.o'
+[74/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gproxyresolverportal.c.o'
+[75/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworkmonitorportal.c.o'
+[76/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmemorymonitorportal.c.o'
+[77/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gopenuriportal.c.o'
+[78/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdocumentportal.c.o'
+[79/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtestdbus.c.o'
+[80/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusobjectmanagerserver.c.o'
+[81/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusobjectmanagerclient.c.o'
+[82/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusobjectmanager.c.o'
+[83/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusobjectproxy.c.o'
+[84/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusobjectskeleton.c.o'
+[85/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusobject.c.o'
+[86/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusinterfaceskeleton.c.o'
+[87/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusinterface.c.o'
+[88/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusserver.c.o'
+[89/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusmethodinvocation.c.o'
+[90/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusintrospection.c.o'
+[91/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusprivate.c.o'
+[92/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusproxy.c.o'
+[93/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusnamewatching.c.o'
+[94/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusnameowning.c.o'
+[95/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusmessage.c.o'
+[96/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusconnection.c.o'
+[97/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbuserror.c.o'
+[98/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusauthmechanismsha1.c.o'
+[99/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusauthmechanismexternal.c.o'
+[100/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusauthmechanismanon.c.o'
+[101/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusauthmechanism.c.o'
+[102/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusauth.c.o'
+[103/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusauthobserver.c.o'
+[104/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusaddress.c.o'
+[105/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusutils.c.o'
+[106/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsettings.c.o'
+[107/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsettings-mapping.c.o'
+[108/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsettingsschema.c.o'
+[109/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsettingsbackend.c.o'
+[110/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnullsettingsbackend.c.o'
+[111/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmemorysettingsbackend.c.o'
+[112/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gkeyfilesettingsbackend.c.o'
+[113/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdelayedsettingsbackend.c.o'
+[114/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gvdb_gvdb-reader.c.o'
+[115/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnotificationbackend.c.o'
+[116/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnotification.c.o'
+[117/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusmenumodel.c.o'
+[118/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmenuexporter.c.o'
+[119/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmenu.c.o'
+[120/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmenumodel.c.o'
+[121/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsimpleaction.c.o'
+[122/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gpropertyaction.c.o'
+[123/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gaction.c.o'
+[124/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusactiongroup.c.o'
+[125/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gactiongroupexporter.c.o'
+[126/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gremoteactiongroup.c.o'
+[127/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsimpleactiongroup.c.o'
+[128/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gactionmap.c.o'
+[129/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gactiongroup.c.o'
+[130/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gapplicationimpl-dbus.c.o'
+[131/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gapplicationcommandline.c.o'
+[132/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gapplication.c.o'
+[133/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworkmonitornm.c.o'
+[134/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworkmonitornetlink.c.o'
+[135/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/ggtknotificationbackend.c.o'
+[136/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfdonotificationbackend.c.o'
+[137/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixoutputstream.c.o'
+[138/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixinputstream.c.o'
+[139/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixvolumemonitor.c.o'
+[140/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixvolume.c.o'
+[141/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixsocketaddress.c.o'
+[142/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixmounts.c.o'
+[143/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixmount.c.o'
+[144/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixfdmessage.c.o'
+[145/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixfdlist.c.o'
+[146/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixcredentialsmessage.c.o'
+[147/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunixconnection.c.o'
+[148/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfiledescriptorbased.c.o'
+[149/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdbusdaemon.c.o'
+[150/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gcontenttype.c.o'
+[151/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdesktopappinfo.c.o'
+[152/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gliststore.c.o'
+[153/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/glistmodel.c.o'
+[154/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gzlibdecompressor.c.o'
+[155/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gzlibcompressor.c.o'
+[156/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gvolumemonitor.c.o'
+[157/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gvolume.c.o'
+[158/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gvfs.c.o'
+[159/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gunionvolumemonitor.c.o'
+[160/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdtlsserverconnection.c.o'
+[161/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdtlsclientconnection.c.o'
+[162/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdtlsconnection.c.o'
+[163/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlsserverconnection.c.o'
+[164/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlspassword.c.o'
+[165/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlsinteraction.c.o'
+[166/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlsfiledatabase.c.o'
+[167/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlsdatabase.c.o'
+[168/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlsconnection.c.o'
+[169/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlsclientconnection.c.o'
+[170/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlscertificate.c.o'
+[171/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtlsbackend.c.o'
+[172/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gthreadedresolver.c.o'
+[173/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gthreadedsocketservice.c.o'
+[174/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gthemedicon.c.o'
+[175/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtcpwrapperconnection.c.o'
+[176/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtcpconnection.c.o'
+[177/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gtask.c.o'
+[178/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsubprocess.c.o'
+[179/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsubprocesslauncher.c.o'
+[180/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsrvtarget.c.o'
+[181/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketservice.c.o'
+[182/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketoutputstream.c.o'
+[183/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketlistener.c.o'
+[184/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketinputstream.c.o'
+[185/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketcontrolmessage.c.o'
+[186/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketconnection.c.o'
+[187/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketconnectable.c.o'
+[188/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketclient.c.o'
+[189/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketaddressenumerator.c.o'
+[190/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocketaddress.c.o'
+[191/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsocket.c.o'
+[192/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsimpleproxyresolver.c.o'
+[193/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsimplepermission.c.o'
+[194/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsimpleiostream.c.o'
+[195/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gsimpleasyncresult.c.o'
+[196/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gseekable.c.o'
+[197/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gresourcefile.c.o'
+[198/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gresource.c.o'
+[199/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gresolver.c.o'
+[200/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gproxyresolver.c.o'
+[201/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gproxyaddressenumerator.c.o'
+[202/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gproxyaddress.c.o'
+[203/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gproxy.c.o'
+[204/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gpollfilemonitor.c.o'
+[205/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gpollableutils.c.o'
+[206/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gpollableoutputstream.c.o'
+[207/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gpollableinputstream.c.o'
+[208/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gpermission.c.o'
+[209/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/goutputstream.c.o'
+[210/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworkservice.c.o'
+[211/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworkmonitorbase.c.o'
+[212/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworkmonitor.c.o'
+[213/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworking.c.o'
+[214/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnetworkaddress.c.o'
+[215/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnativevolumemonitor.c.o'
+[216/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gnativesocketaddress.c.o'
+[217/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmountoperation.c.o'
+[218/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmemoryoutputstream.c.o'
+[219/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmemoryinputstream.c.o'
+[220/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmemorymonitordbus.c.o'
+[221/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmemorymonitor.c.o'
+[222/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmount.c.o'
+[223/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gmarshal-internal.c.o'
+[224/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gloadableicon.c.o'
+[225/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/giostream.c.o'
+[226/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gioscheduler.c.o'
+[227/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/giomodule-priv.c.o'
+[228/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/giomodule.c.o'
+[229/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gioerror.c.o'
+[230/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/ginputstream.c.o'
+[231/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/ginitable.c.o'
+[232/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/ginetsocketaddress.c.o'
+[233/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/ginetaddressmask.c.o'
+[234/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/ginetaddress.c.o'
+[235/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gicon.c.o'
+[236/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfilteroutputstream.c.o'
+[237/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfilterinputstream.c.o'
+[238/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfileiostream.c.o'
+[239/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfileoutputstream.c.o'
+[240/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfilenamecompleter.c.o'
+[241/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfilemonitor.c.o'
+[242/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfileinputstream.c.o'
+[243/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfileinfo.c.o'
+[244/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfileicon.c.o'
+[245/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfileenumerator.c.o'
+[246/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfileattribute.c.o'
+[247/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gfile.c.o'
+[248/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gemblemedicon.c.o'
+[249/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gemblem.c.o'
+[250/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdummytlsbackend.c.o'
+[251/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdummyproxyresolver.c.o'
+[252/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdummyfile.c.o'
+[253/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdrive.c.o'
+[254/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdataoutputstream.c.o'
+[255/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdatainputstream.c.o'
+[256/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gdatagrambased.c.o'
+[257/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gcredentials.c.o'
+[258/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gconverteroutputstream.c.o'
+[259/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gconverterinputstream.c.o'
+[260/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gconverter.c.o'
+[261/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gcontextspecificgroup.c.o'
+[262/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gcharsetconverter.c.o'
+[263/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gcancellable.c.o'
+[264/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gbytesicon.c.o'
+[265/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gbufferedoutputstream.c.o'
+[266/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gbufferedinputstream.c.o'
+[267/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gasyncresult.c.o'
+[268/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gasyncinitable.c.o'
+[269/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gasynchelper.c.o'
+[270/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/gappinfo.c.o'
+[271/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/meson-generated_.._xdp-dbus.c.o'
+[272/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/meson-generated_.._gdbus-daemon-generated.c.o'
+[273/419] Compiling C object 'gio/inotify/cf1e726@@inotify@sta/ginotifyfilemonitor.c.o'
+[274/419] Compiling C object 'gio/inotify/cf1e726@@inotify@sta/inotify-helper.c.o'
+[275/419] Compiling C object 'gio/inotify/cf1e726@@inotify@sta/inotify-missing.c.o'
+[276/419] Compiling C object 'gio/inotify/cf1e726@@inotify@sta/inotify-path.c.o'
+[277/419] Compiling C object 'gio/inotify/cf1e726@@inotify@sta/inotify-sub.c.o'
+[278/419] Compiling C object 'gio/inotify/cf1e726@@inotify@sta/inotify-kernel.c.o'
+[279/419] Generating gioenumtypes_c with a meson_exe.py custom command
+[280/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gvaluearray.c.o'
+[281/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gvalue.c.o'
+[282/419] Linking static target gio/inotify/libinotify.a
+[283/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gtypeplugin.c.o'
+[284/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gtypemodule.c.o'
+[285/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gtype.c.o'
+[286/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gsourceclosure.c.o'
+[287/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gsignal.c.o'
+[288/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gparamspecs.c.o'
+[289/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gparam.c.o'
+[290/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gobject.c.o'
+[291/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gmarshal.c.o'
+[292/419] Compiling C object 'gio/6ae6c9e@@gio-2.0@sha/meson-generated_.._gioenumtypes.c.o'
+[293/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/genums.c.o'
+[294/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gclosure.c.o'
+[295/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gboxed.c.o'
+[296/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gbinding.c.o'
+[297/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/gatomicarray.c.o'
+[298/419] Generating glib_enumtypes_c with a meson_exe.py custom command
+[299/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gvariant-parser.c.o'
+[300/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gvariant-core.c.o'
+[301/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gvariant.c.o'
+[302/419] Compiling C object 'glib/4430778@@glib-2.0@sha/guuid.c.o'
+[303/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gutils.c.o'
+[304/419] Compiling C object 'gobject/6270cfe@@gobject-2.0@sha/meson-generated_.._glib-enumtypes.c.o'
+[305/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gurifuncs.c.o'
+[306/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gunidecomp.c.o'
+[307/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gunicollate.c.o'
+[308/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gunibreak.c.o'
+[309/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gutf8.c.o'
+[310/419] Compiling C object 'glib/4430778@@glib-2.0@sha/guniprop.c.o'
+[311/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gtree.c.o'
+[312/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gtrashstack.c.o'
+[313/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gtranslit.c.o'
+[314/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gtimezone.c.o'
+[315/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gtimer.c.o'
+[316/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gthreadpool.c.o'
+[317/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gthread.c.o'
+[318/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gtestutils.c.o'
+[319/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gstringchunk.c.o'
+[320/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gstring.c.o'
+[321/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gstrfuncs.c.o'
+[322/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gstdio.c.o'
+[323/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gslist.c.o'
+[324/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gslice.c.o'
+[325/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gshell.c.o'
+[326/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gsequence.c.o'
+[327/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gscanner.c.o'
+[328/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gregex.c.o'
+[329/419] Compiling C object 'glib/4430778@@glib-2.0@sha/grefstring.c.o'
+[330/419] Compiling C object 'glib/4430778@@glib-2.0@sha/grefcount.c.o'
+[331/419] Compiling C object 'glib/4430778@@glib-2.0@sha/grcbox.c.o'
+[332/419] Compiling C object 'glib/4430778@@glib-2.0@sha/grand.c.o'
+[333/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gqueue.c.o'
+[334/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gquark.c.o'
+[335/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gqsort.c.o'
+[336/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gprimes.c.o'
+[337/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gpoll.c.o'
+[338/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gpattern.c.o'
+[339/419] Compiling C object 'glib/4430778@@glib-2.0@sha/goption.c.o'
+[340/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gnode.c.o'
+[341/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gmessages.c.o'
+[342/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gmem.c.o'
+[343/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gmarkup.c.o'
+[344/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gmappedfile.c.o'
+[345/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gmain.c.o'
+[346/419] Compiling C object 'glib/4430778@@glib-2.0@sha/glist.c.o'
+[347/419] Compiling C object 'glib/4430778@@glib-2.0@sha/glib-private.c.o'
+[348/419] Compiling C object 'glib/4430778@@glib-2.0@sha/glib-init.c.o'
+[349/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gkeyfile.c.o'
+[350/419] Compiling C object 'glib/4430778@@glib-2.0@sha/giochannel.c.o'
+[351/419] Compiling C object 'glib/4430778@@glib-2.0@sha/ghostutils.c.o'
+[352/419] Compiling C object 'glib/4430778@@glib-2.0@sha/ghook.c.o'
+[353/419] Compiling C object 'glib/4430778@@glib-2.0@sha/ghmac.c.o'
+[354/419] Compiling C object 'glib/4430778@@glib-2.0@sha/ghash.c.o'
+[355/419] Compiling C object 'glib/4430778@@glib-2.0@sha/ggettext.c.o'
+[356/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gfileutils.c.o'
+[357/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gerror.c.o'
+[358/419] Compiling C object 'glib/4430778@@glib-2.0@sha/genviron.c.o'
+[359/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gdir.c.o'
+[360/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gdatetime.c.o'
+[361/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gdate.c.o'
+[362/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gdataset.c.o'
+[363/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gconvert.c.o'
+[364/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gchecksum.c.o'
+[365/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gcharset.c.o'
+[366/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gbytes.c.o'
+[367/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gbookmarkfile.c.o'
+[368/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gbitlock.c.o'
+[369/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gbase64.c.o'
+[370/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gbacktrace.c.o'
+[371/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gatomic.c.o'
+[372/419] Compiling C object 'glib/4430778@@glib-2.0@sha/gasyncqueue.c.o'
+[373/419] Compiling C object 'glib/4430778@@glib-2.0@sha/garray.c.o'
+[374/419] Compiling C object 'glib/4430778@@glib-2.0@sha/garcbox.c.o'
+[375/419] Compiling C object 'glib/4430778@@glib-2.0@sha/deprecated_gthread-deprecated.c.o'
+[376/419] Compiling C object 'glib/4430778@@glib-2.0@sha/deprecated_grel.c.o'
+[377/419] Compiling C object 'glib/4430778@@glib-2.0@sha/deprecated_gcompletion.c.o'
+[378/419] Compiling C object 'glib/4430778@@glib-2.0@sha/deprecated_gcache.c.o'
+[379/419] Compiling C object 'glib/4430778@@glib-2.0@sha/deprecated_gallocator.c.o'
+[380/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_xclass.c.o'
+[381/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_version.c.o'
+[382/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_valid_utf8.c.o'
+[383/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_tables.c.o'
+[384/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_study.c.o'
+[385/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_string_utils.c.o'
+[386/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_ord2utf8.c.o'
+[387/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_newline.c.o'
+[388/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_jit_compile.c.o'
+[389/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_globals.c.o'
+[390/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_get.c.o'
+[391/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_fullinfo.c.o'
+[392/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_exec.c.o'
+[393/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_dfa_exec.c.o'
+[394/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_config.c.o'
+[395/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_compile.c.o'
+[396/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_chartables.c.o'
+[01m[K../glib/pcre/pcre_study.c:[m[K In function '[01m[Kset_start_bits[m[K':
+[01m[K../glib/pcre/pcre_study.c:1240:33:[m[K [01;35m[Kwarning: [m[K'[01m[K<<[m[K' in boolean context, did you mean '[01m[K<[m[K' ? [[01;35m[K-Wint-in-bool-context[m[K]
+ 1240 |             if ((map[c/8] && [01;35m[K(1 << (c&7))[m[K) != 0)
+      |                              [01;35m[K~~~^~~~~~~~~[m[K
+[01m[K../glib/pcre/pcre_study.c:[m[K In function '[01m[Kfind_minlength[m[K':
+[01m[K../glib/pcre/pcre_study.c:111:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  111 |     if [01;35m[K([m[K*cs != OP_ALT)
+      |        [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_study.c:120:5:[m[K [01;36m[Knote: [m[Khere
+  120 |     [01;36m[Kcase[m[K OP_CBRA:
+      |     [01;36m[K^~~~[m[K
+[01m[K../glib/pcre/pcre_study.c:326:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  326 |     [01;35m[Kcc += GET(cc, 1) - PRIV(OP_lengths)[OP_CLASS][m[K;
+      |     [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K../glib/pcre/pcre_study.c:330:5:[m[K [01;36m[Knote: [m[Khere
+  330 |     [01;36m[Kcase[m[K OP_CLASS:
+      |     [01;36m[K^~~~[m[K
+[397/419] Compiling C object 'glib/pcre/ad47afb@@pcre@sta/pcre_byte_order.c.o'
+[398/419] Compiling C object 'glib/libcharset/6e4c96c@@charset@sta/localcharset.c.o'
+[399/419] Linking static target glib/libcharset/libcharset.a
+[01m[K../glib/pcre/pcre_dfa_exec.c:[m[K In function '[01m[Kinternal_dfa_exec[m[K':
+[01m[K../glib/pcre/pcre_dfa_exec.c:2145:12:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 2145 |         if [01;35m[K([m[K(md->moptions & PCRE_BSR_ANYCRLF) != 0) break;
+      |            [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_dfa_exec.c:2147:9:[m[K [01;36m[Knote: [m[Khere
+ 2147 |         [01;36m[Kcase[m[K 0x000a:
+      |         [01;36m[K^~~~[m[K
+[01m[K../glib/pcre/pcre_compile.c:[m[K In function '[01m[Kcompile_branch[m[K':
+[01m[K../glib/pcre/pcre_compile.c:6038:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 6038 |         else if [01;35m[K([m[K*ptr != CHAR_LESS_THAN_SIGN)  /* Test for Python-style defn */
+      |                 [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_compile.c:6047:9:[m[K [01;36m[Knote: [m[Khere
+ 6047 |         [01;36m[KDEFINE_NAME[m[K:    /* Come here from (?< handling */
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K../glib/pcre/pcre_compile.c:[m[K In function '[01m[Kcheck_escape[m[K':
+[01m[K../glib/pcre/pcre_compile.c:1003:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 1003 |     if [01;35m[K([m[K(c = *ptr) >= CHAR_8)
+      |        [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_compile.c:1016:5:[m[K [01;36m[Knote: [m[Khere
+ 1016 |     [01;36m[Kcase[m[K CHAR_0:
+      |     [01;36m[K^~~~[m[K
+[01m[K../glib/pcre/pcre_compile.c:[m[K In function '[01m[Kfind_fixedlength[m[K':
+[01m[K../glib/pcre/pcre_compile.c:1898:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 1898 |     [01;35m[Kcc += GET(cc, 1) - PRIV(OP_lengths)[OP_CLASS][m[K;
+      |     [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K../glib/pcre/pcre_compile.c:1902:5:[m[K [01;36m[Knote: [m[Khere
+ 1902 |     [01;36m[Kcase[m[K OP_CLASS:
+      |     [01;36m[K^~~~[m[K
+[01m[K../glib/pcre/pcre_exec.c:[m[K In function '[01m[Kmatch[m[K':
+[01m[K../glib/pcre/pcre_exec.c:937:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  937 |     if [01;35m[K([m[Koffset < md->offset_max)
+      |        [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_exec.c:1025:5:[m[K [01;36m[Knote: [m[Khere
+ 1025 |     [01;36m[Kcase[m[K OP_ONCE:
+      |     [01;36m[K^~~~[m[K
+[01m[K../glib/pcre/pcre_exec.c:1106:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 1106 |     if [01;35m[K([m[Koffset < md->offset_max)
+      |        [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_exec.c:1193:5:[m[K [01;36m[Knote: [m[Khere
+ 1193 |     [01;36m[Kcase[m[K OP_BRAPOS:
+      |     [01;36m[K^~~~[m[K
+[01m[K../glib/pcre/pcre_exec.c:2032:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 2032 |     if [01;35m[K([m[Kmd->notbol && eptr == md->start_subject) RRETURN(MATCH_NOMATCH);
+      |        [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_exec.c:2036:5:[m[K [01;36m[Knote: [m[Khere
+ 2036 |     [01;36m[Kcase[m[K OP_SOD:
+      |     [01;36m[K^~~~[m[K
+[01m[K../glib/pcre/pcre_exec.c:2098:8:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 2098 |     if [01;35m[K([m[K!md->endonly) goto ASSERT_NL_OR_EOS;
+      |        [01;35m[K^[m[K
+[01m[K../glib/pcre/pcre_exec.c:2104:5:[m[K [01;36m[Knote: [m[Khere
+ 2104 |     [01;36m[Kcase[m[K OP_EOD:
+      |     [01;36m[K^~~~[m[K
+[400/419] Linking target glib/libglib-2.0.so.0.6400.2
+[401/419] Linking static target glib/pcre/libpcre.a
+[402/419] Generating symbol file 'glib/4430778@@glib-2.0@sha/libglib-2.0.so.0.6400.2.symbols'
+[403/419] Linking target gmodule/libgmodule-2.0.so.0.6400.2
+[404/419] Linking target gthread/libgthread-2.0.so.0.6400.2
+[405/419] Linking target gobject/libgobject-2.0.so.0.6400.2
+[406/419] Linking target glib/gtester
+[407/419] Generating symbol file 'gmodule/75acf41@@gmodule-2.0@sha/libgmodule-2.0.so.0.6400.2.symbols'
+[408/419] Generating symbol file 'gobject/6270cfe@@gobject-2.0@sha/libgobject-2.0.so.0.6400.2.symbols'
+[409/419] Linking target gio/libgio-2.0.so.0.6400.2
+[410/419] Linking target gobject/gobject-query
+[411/419] Generating symbol file 'gio/6ae6c9e@@gio-2.0@sha/libgio-2.0.so.0.6400.2.symbols'
+[412/419] Linking target gio/gapplication
+[413/419] Linking target gio/gdbus
+[414/419] Linking target gio/gsettings
+[415/419] Linking target gio/glib-compile-resources
+[416/419] Linking target gio/glib-compile-schemas
+[417/419] Linking target gio/gio-querymodules
+[418/419] Linking target gio/gresource
+[419/419] Linking target gio/gio
+[1/1] Installing files.
+Installing glib/libglib-2.0.so.0.6400.2 to /home/david/.cache/kiss/pkg-246/glib/usr/lib
+Installing glib/gtester to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gobject/glib-enumtypes.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing gobject/libgobject-2.0.so.0.6400.2 to /home/david/.cache/kiss/pkg-246/glib/usr/lib
+Installing gobject/gobject-query to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gthread/libgthread-2.0.so.0.6400.2 to /home/david/.cache/kiss/pkg-246/glib/usr/lib
+Installing gmodule/libgmodule-2.0.so.0.6400.2 to /home/david/.cache/kiss/pkg-246/glib/usr/lib
+Installing gio/gioenumtypes.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio
+Installing gio/libgio-2.0.so.0.6400.2 to /home/david/.cache/kiss/pkg-246/glib/usr/lib
+Installing gio/gio to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gio/gresource to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gio/gio-querymodules to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gio/glib-compile-schemas to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gio/glib-compile-resources to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gio/gsettings to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gio/gdbus to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing gio/gapplication to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing /home/david/.cache/kiss/build-246/glib/glib/glib.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0
+Installing /home/david/.cache/kiss/build-246/glib/glib/glib-unix.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0
+Installing /home/david/.cache/kiss/build-246/glib/glib/glib-object.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0
+Installing /home/david/.cache/kiss/build-246/glib/glib/deprecated/gallocator.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib/deprecated
+Installing /home/david/.cache/kiss/build-246/glib/glib/deprecated/gcache.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib/deprecated
+Installing /home/david/.cache/kiss/build-246/glib/glib/deprecated/gcompletion.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib/deprecated
+Installing /home/david/.cache/kiss/build-246/glib/glib/deprecated/gmain.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib/deprecated
+Installing /home/david/.cache/kiss/build-246/glib/glib/deprecated/grel.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib/deprecated
+Installing /home/david/.cache/kiss/build-246/glib/glib/deprecated/gthread.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib/deprecated
+Installing /home/david/.cache/kiss/build-246/glib/glib/glib-autocleanups.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/galloca.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/garray.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gasyncqueue.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gatomic.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gbacktrace.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gbase64.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gbitlock.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gbookmarkfile.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gbytes.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gcharset.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gchecksum.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gconvert.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gdataset.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gdate.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gdatetime.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gdir.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/genviron.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gerror.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gfileutils.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/ggettext.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/ghash.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/ghmac.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/ghook.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/ghostutils.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gi18n.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gi18n-lib.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/giochannel.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gkeyfile.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/glist.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gmacros.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gmain.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gmappedfile.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gmarkup.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gmem.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gmessages.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gnode.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/goption.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gpattern.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gpoll.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gprimes.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gqsort.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gquark.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gqueue.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/grand.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/grcbox.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/grefcount.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/grefstring.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gregex.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gscanner.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gsequence.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gshell.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gslice.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gslist.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gspawn.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gstdio.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gstrfuncs.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gtestutils.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gstring.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gstringchunk.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gthread.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gthreadpool.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gtimer.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gtimezone.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gtrashstack.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gtree.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gtypes.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/guuid.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gunicode.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gurifuncs.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gutils.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gvarianttype.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gvariant.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gversion.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gversionmacros.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gwin32.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/glib/gprintf.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/glib
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gobject-autocleanups.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/glib-types.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gbinding.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gboxed.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gclosure.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/genums.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gmarshal.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gobject.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gparam.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gparamspecs.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gsignal.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gsourceclosure.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gtype.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gtypemodule.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gtypeplugin.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gvalue.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gvaluearray.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gvaluecollector.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gvaluetypes.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gobjectnotifyqueue.c to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gobject
+Installing /home/david/.cache/kiss/build-246/glib/gmodule/gmodule.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfiledescriptorbased.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixcredentialsmessage.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixmounts.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixfdlist.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixfdmessage.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixinputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixoutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gunixsocketaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdesktopappinfo.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/gio-unix-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/gio/gappinfo.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gasyncinitable.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gasyncresult.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gbufferedinputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gbufferedoutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gbytesicon.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gcancellable.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gcontenttype.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gcharsetconverter.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gconverter.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gconverterinputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gconverteroutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdatagrambased.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdatainputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdataoutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdrive.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gemblem.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gemblemedicon.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfile.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfileattribute.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfileenumerator.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfileicon.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfileinfo.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfileinputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfilemonitor.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfilenamecompleter.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfileoutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfileiostream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfilterinputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gfilteroutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gicon.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/ginetaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/ginetaddressmask.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/ginetsocketaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/ginitable.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/ginputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gio.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gio-autocleanups.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gioenums.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gioerror.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/giomodule.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gioscheduler.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/giostream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/giotypes.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gloadableicon.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmount.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmemoryinputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmemorymonitor.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmemoryoutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmountoperation.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gnativesocketaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gnativevolumemonitor.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gnetworkaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gnetworkmonitor.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gnetworkservice.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/goutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gpermission.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gpollableinputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gpollableoutputstream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gpollableutils.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gproxy.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gproxyaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gproxyaddressenumerator.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gproxyresolver.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gresolver.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gresource.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gseekable.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsimpleasyncresult.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsimpleiostream.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsimplepermission.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsimpleproxyresolver.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocket.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketaddressenumerator.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketclient.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketconnectable.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketcontrolmessage.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketlistener.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsocketservice.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsrvtarget.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsubprocess.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsubprocesslauncher.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtask.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtcpconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtcpwrapperconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gthemedicon.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gthreadedsocketservice.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlsbackend.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlscertificate.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlsclientconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlsconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlsdatabase.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlsfiledatabase.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlsinteraction.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlspassword.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtlsserverconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdtlsconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdtlsclientconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdtlsserverconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gvfs.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gvolume.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gvolumemonitor.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gzlibcompressor.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gzlibdecompressor.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/glistmodel.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gliststore.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gapplication.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gapplicationcommandline.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gactiongroup.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gactionmap.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsimpleactiongroup.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gremoteactiongroup.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gactiongroupexporter.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusactiongroup.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gaction.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gpropertyaction.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsimpleaction.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmenumodel.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmenu.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gmenuexporter.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusmenumodel.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gnotification.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsettingsbackend.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsettingsschema.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gsettings.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusauthobserver.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gcredentials.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusutils.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbuserror.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusaddress.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusconnection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusmessage.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusnameowning.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusnamewatching.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusproxy.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusintrospection.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusmethodinvocation.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusserver.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusinterface.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusinterfaceskeleton.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusobject.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusobjectskeleton.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusobjectproxy.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusobjectmanager.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusobjectmanagerclient.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gdbusobjectmanagerserver.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/gio/gtestdbus.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio/
+Installing /home/david/.cache/kiss/build-246/glib/build/glib/glibconfig.h to /home/david/.cache/kiss/pkg-246/glib/usr/lib/glib-2.0/include
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/glib-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/build/glib/gtester-report to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing /home/david/.cache/kiss/build-246/glib/glib/glib_gdb.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/gdb
+Installing /home/david/.cache/kiss/build-246/glib/build/glib/libglib-2.0.so.0.6400.2-gdb.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/gdb/auto-load/.//usr/lib
+Installing /home/david/.cache/kiss/build-246/glib/build/gobject/glib-genmarshal to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing /home/david/.cache/kiss/build-246/glib/build/gobject/glib-mkenums to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/gobject-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/gobject/gobject_gdb.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/gdb
+Installing /home/david/.cache/kiss/build-246/glib/build/gobject/libgobject-2.0.so.0.6400.2-gdb.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/gdb/auto-load/.//usr/lib
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/gthread-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/gmodule-no-export-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/gmodule-export-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/gmodule-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gnetworking.h to /home/david/.cache/kiss/pkg-246/glib/usr/include/glib-2.0/gio
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/gdbus-codegen to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/config.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/__init__.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/codegen.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/codegen_main.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/codegen_docbook.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/dbustypes.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/parser.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/build/gio/gdbus-2.0/codegen/utils.py to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/codegen
+Installing /home/david/.cache/kiss/build-246/glib/gio/completion/gapplication to /home/david/.cache/kiss/pkg-246/glib/usr/share/bash-completion/completions
+Installing /home/david/.cache/kiss/build-246/glib/gio/completion/gdbus to /home/david/.cache/kiss/pkg-246/glib/usr/share/bash-completion/completions
+Installing /home/david/.cache/kiss/build-246/glib/gio/completion/gio to /home/david/.cache/kiss/pkg-246/glib/usr/share/bash-completion/completions
+Installing /home/david/.cache/kiss/build-246/glib/gio/completion/gsettings to /home/david/.cache/kiss/pkg-246/glib/usr/share/bash-completion/completions
+Installing /home/david/.cache/kiss/build-246/glib/gio/completion/gresource to /home/david/.cache/kiss/pkg-246/glib/usr/share/bash-completion/completions
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/gio-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/build/meson-private/gio-unix-2.0.pc to /home/david/.cache/kiss/pkg-246/glib/usr/lib/pkgconfig
+Installing /home/david/.cache/kiss/build-246/glib/gio/gschema.dtd to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/schemas
+Installing /home/david/.cache/kiss/build-246/glib/gio/gschema.loc to /home/david/.cache/kiss/pkg-246/glib/usr/share/gettext/its
+Installing /home/david/.cache/kiss/build-246/glib/gio/gschema.its to /home/david/.cache/kiss/pkg-246/glib/usr/share/gettext/its
+Installing /home/david/.cache/kiss/build-246/glib/build/glib-gettextize to /home/david/.cache/kiss/pkg-246/glib/usr/bin
+Installing /home/david/.cache/kiss/build-246/glib/m4macros/glib-2.0.m4 to /home/david/.cache/kiss/pkg-246/glib/usr/share/aclocal
+Installing /home/david/.cache/kiss/build-246/glib/m4macros/glib-gettext.m4 to /home/david/.cache/kiss/pkg-246/glib/usr/share/aclocal
+Installing /home/david/.cache/kiss/build-246/glib/m4macros/gsettings.m4 to /home/david/.cache/kiss/pkg-246/glib/usr/share/aclocal
+Installing /home/david/.cache/kiss/build-246/glib/glib.supp to /home/david/.cache/kiss/pkg-246/glib/usr/share/glib-2.0/valgrind
+The Meson build system
+Version: 0.54.0
+Source dir: /home/david/.cache/kiss/build-246/glib/json-glib
+Build dir: /home/david/.cache/kiss/build-246/glib/json-glib/output
+Build type: native build
+Project name: json-glib
+Project version: 1.4.4
+C compiler for the host machine: cc (gcc 9.3.0 "cc (GCC) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: /usr/bin/pkg-config (1.6.3)
+Found CMake: /usr/bin/cmake (3.17.1)
+Run-time dependency gobject-2.0 found: NO (tried pkgconfig and cmake)
+
+meson.build:37:0: ERROR: Dependency "gobject-2.0" not found, tried pkgconfig and cmake
+
+A full log can be found at /home/david/.cache/kiss/build-246/glib/json-glib/output/meson-logs/meson-log.txt
